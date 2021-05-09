@@ -57,14 +57,14 @@ const App = () => {
     e.preventDefault();
     setQuery(search);
     setSearch("");
-    alert("reciepe");
+   
   };
 
   const getSearch2 = e => {
     e.preventDefault();
     setFoodDb(search);
     setSearch("");
-    alert("calorie = " + search);
+    
   };
   return (
     <div className="App">
